@@ -10,7 +10,43 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--foreground)",
+        secondary: "var(--foreground)",
+        darkBlack:"#000",
       },
+      fontSize:{
+        huge:"18rem"
+      },
+      height:{
+        // screen:"100dvh"
+      },
+      keyframes:{
+        hero:{
+          "0":{
+            transform:"translateX(100rem) rotate(360deg)",
+            opacity:0
+          },
+          "100":{
+            transform:"translateX(0) ",
+            opacity:1
+          }
+        },
+        fadeIn: {
+          "0%": {
+            opacity: 0,
+            transform: "translateY(10px)", // Start from below
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translateY(0)", // End at normal position
+          },
+        },
+      },
+      animation:{
+        hero:"hero 2s ease-out",
+        fadeIn: "fadeIn 1s ease-out",
+      }
+
     },
   },
   plugins: [],

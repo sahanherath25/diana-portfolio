@@ -2,20 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --background: #ffffff;
+    --foreground: #171717;
+    --primary-color:#014d4e;
+    --secondary-color:#ff9408;
+    --tertiary-color:#017374;
+    --tertiary-color-m:#01727498;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+}
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+a{
+    font-size: 1.6rem;
+}
+
+@layer components {
+    .div-1 {
+        @apply bg-pink-400
+    }
+    .div-2 {
+        @apply bg-green-400
+    }
+
+    .nav-bar-hover-before{
+        @apply  before:content-[''] before:absolute before:left-0 before:top-0 before:bg-white before:h-[2px] before:w-full
+    }
+    .nav-bar-hover-after{
+        @apply  after:content-[''] after:absolute after:bg-white  after:w-full after:h-[2px]  after:left-0  after:bottom-0
+    }
+
+    .transition-links{
+        @apply transition-all duration-300 ease-in-out hover:text-blue-500 hover:underline
+    }
+
+
+}
+
+.z-minus {
+    z-index: -1;
 }

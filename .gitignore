@@ -10,6 +10,7 @@
 !.yarn/releases
 !.yarn/versions
 
+
 # testing
 /coverage
 
@@ -23,6 +24,9 @@
 # misc
 .DS_Store
 *.pem
+
+#ide
+.idea
 
 # debug
 npm-debug.log*
@@ -39,3 +43,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+*.mjs
