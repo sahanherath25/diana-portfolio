@@ -4,7 +4,7 @@ import Image from "next/image";
 const AboutMe=()=>{
     return(
         <section className={"about__me flex flex-col w-full text-black lg:flex-row"}>
-            <div className="about__me__content   flex flex-col w-full text-black lg:flex-row items-center lg:w-[80%] my-0 mx-auto   ">
+            <div className="about__me__content md:w-[80%]  my-0 mx-auto   flex flex-col w-full text-black lg:flex-row items-center lg:w-[80%]  ">
                 <div className="about__me__content--image-wrapper grow my-6  border-2 lg:h-[800px]  basis-[50%]">
                     <Image className={"h-full w-full"} style={{objectFit: "cover"}} src={"https://images.unsplash.com/photo-1509356587986-64d19828e173?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"} alt={"poster"}
                            width={"450"} height={"800"}/>

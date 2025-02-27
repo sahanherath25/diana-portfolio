@@ -10,6 +10,8 @@ import {useState} from "react";
 import ShowCase from "@/components/ShowCase";
 import WorkSection from "@/components/WorkSection";
 import AboutMe from "@/components/AboutMe";
+import Services from "@/components/Services";
+import Skills from "@/components/Skills";
 
 
 const HeroFont = Montserrat({
@@ -77,6 +79,8 @@ export default function Home() {
                 <ShowCase/>
                 <WorkSection/>
                 <AboutMe/>
+                <Services/>
+                <Skills/>
             </main>
 
         </div>

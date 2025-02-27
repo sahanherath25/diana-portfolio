@@ -5,9 +5,9 @@ import imageSahan from "../../public/images/kelly.jpg"
 const WorkSection = () => {
     return (
         <section id={"work"}
-                 className={" border-white border-2  w-[100%]  bg-[#0B192C]"}>
+                 className={"   w-[100%]  bg-[#0B192C]"}>
             <div
-                className=" flex  flex-wrap flex-col  h-auto w-[100%] md:w-[100%] my-0 mx-auto border-2  lg:w-[80%] xl:w-[90%] justify-center lg:flex-row h-full  justify-center items-center  ">
+                className=" flex  flex-wrap flex-col  h-auto w-[100%] md:w-[100%] my-0 mx-auto   lg:w-[80%] xl:w-[90%] justify-center lg:flex-row h-full  justify-center items-center  ">
                 <div
                     className="work__card flex   h-[100%] md:basis-[250px] items-stretch  lg:basis-[350px] xl:basic-[450px] p-4  m-5 ">
                     <Image className={"h-full object-cover  lg:basis-[350px]"} style={{objectFit: "cover"}}

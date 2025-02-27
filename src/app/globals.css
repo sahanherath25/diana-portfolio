@@ -66,10 +66,28 @@ a{
     .transition-links{
         @apply transition-all duration-300 ease-in-out hover:text-blue-500 hover:underline
     }
+    .service-after{
+        @apply after:absolute  after:w-full after:h-full after:top-0 after:left-0 after:bg-white
+    }
 
 
 }
 
 .z-minus {
     z-index: -1;
+}
+
+.service{
+    position: relative;
+    z-index: 1;
+}
+
+.service::after{
+    transition: transform 0.4s cubic-bezier(1,0,0,1);
+    z-index: -1;
+    transform: scaleX(0);
+}
+
+.service:hover::after{
+    transform: scaleX(1);
 }
