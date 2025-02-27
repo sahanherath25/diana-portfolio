@@ -91,3 +91,80 @@ a{
 .service:hover::after{
     transform: scaleX(1);
 }
+
+
+.skills__coding--progress,.skills__design--progress{
+    position: relative;
+    display: block;
+    padding: 0.2rem;
+    border-radius: 6;
+    background-color: #001F3F;
+    /*opacity: 0.5;*/
+}
+
+.skills__coding--progress span,.skills__design--progress span{
+    position: relative;
+    display: inline-block;
+    /*padding: 0.5rem;*/
+    /*border-radius: 6rem;*/
+    background-color: #D3E671;
+    height: 10px;
+
+}
+
+
+.skills__design--progress__1{
+    animation: design-1 4s infinite cubic-bezier(1,0,0,1);
+}
+
+.skills__design--progress__2{
+    animation: design-2 4s infinite cubic-bezier(1,0,0,1);
+}
+.skills__design--progress__3{
+    animation: design-3 4s infinite cubic-bezier(1,0,0,1);
+}
+
+.skills__design--progress__4{
+    animation: design-1 4s infinite cubic-bezier(1,0,0,1);
+}
+
+.skills__design--progress__5{
+    animation: design-1 4s infinite cubic-bezier(1,0,0,1);
+}
+.skills__design--progress__6{
+    animation: design-1 4s infinite cubic-bezier(1,0,0,1);
+}
+
+@keyframes design-1 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes design-2 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes design-3 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes design-4 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}
