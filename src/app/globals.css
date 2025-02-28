@@ -135,6 +135,31 @@ a{
     animation: design-1 4s infinite cubic-bezier(1,0,0,1);
 }
 
+
+
+
+.skills__coding--progress__1{
+    animation: design-1 4s infinite cubic-bezier(1,0,0,1);
+}
+
+.skills__coding--progress__2{
+    animation: design-2 4s infinite cubic-bezier(1,0,0,1);
+}
+.skills__coding--progress__3{
+    animation: design-3 4s infinite cubic-bezier(1,0,0,1);
+}
+
+.skills__coding--progress__4{
+    animation: design-1 4s infinite cubic-bezier(1,0,0,1);
+}
+
+.skills__coding--progress__5{
+    animation: design-1 4s infinite cubic-bezier(1,0,0,1);
+}
+.skills__coding--progress__6{
+    animation: design-1 4s infinite cubic-bezier(1,0,0,1);
+}
+
 @keyframes design-1 {
     0%{
         width: 0;

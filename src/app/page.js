@@ -82,7 +82,7 @@ export default function Home() {
                 <AboutMe/>
                 <Services/>
                 <Skills/>
-                <Testimonial/>
+                {/*<Testimonial/>*/}
             </main>
 
         </div>
