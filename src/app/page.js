@@ -13,6 +13,7 @@ import AboutMe from "@/components/AboutMe";
 import Services from "@/components/Services";
 import Skills from "@/components/Skills";
 import Testimonial from "@/components/Testimonial";
+import ContactForm from "@/components/ContactForm";
 
 
 const HeroFont = Montserrat({
@@ -82,7 +83,8 @@ export default function Home() {
                 <AboutMe/>
                 <Services/>
                 <Skills/>
-                {/*<Testimonial/>*/}
+                <Testimonial/>
+                <ContactForm/>
             </main>
 
         </div>
