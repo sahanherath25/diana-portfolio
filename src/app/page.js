@@ -49,22 +49,22 @@ export default function Home() {
 
                         <ul className="header__main__nav--links  w-[100%] h-[100%] flex hidden  md:flex justify-end items-center ">
                             <li className={"px-2"}><Link
-                                className={"relative inline-block  nav-bar-hover-before nav-bar-hover-after  "}
+                                className={"relative inline-block  opacity-80 rounded px-6 mx-2 hover:opacity-100 hover:bg-red-400  transition-all duration-500 ease-in-out "}
                                 href="#">Home</Link></li>
                             <li className={"px-2"}><Link
-                                className={"relative inline-block  nav-bar-hover-before nav-bar-hover-after   "}
+                                className={"relative inline-block opacity-80 rounded px-6 mx-2 hover:opacity-100 hover:bg-red-400  transition-all duration-500 ease-in-out "}
                                 href="#">About</Link></li>
                             <li className={"px-2"}><Link
-                                className={"relative inline-block  nav-bar-hover-before nav-bar-hover-after  "}
+                                className={"relative inline-block  opacity-80 rounded px-6 mx-2 hover:opacity-100 hover:bg-red-400  transition-all duration-500 ease-in-out "}
                                 href="#">Projects</Link></li>
                             <li className={"px-2"}><Link
-                                className={"relative inline-block  nav-bar-hover-before nav-bar-hover-after   "}
+                                className={"relative inline-block  opacity-80 rounded px-6 mx-2 hover:opacity-100 hover:bg-red-400  transition-all duration-500 ease-in-out"}
                                 href="#">Services</Link></li>
                             <li className={"px-2"}><Link
-                                className={"relative inline-block  nav-bar-hover-before nav-bar-hover-after  "}
+                                className={"relative inline-block opacity-80 rounded px-6 mx-2 hover:opacity-100 hover:bg-red-400  transition-all duration-500 ease-in-out "}
                                 href="#">Hire Me</Link></li>
                             <li className={"px-2 mr-3"}><a
-                                className={"relative inline-block  before:content-[''] before:absolute before:left-0 before:top-0 before:bg-white before:h-[2px] before:w-full      after:content-[''] after:absolute after:bg-white  after:w-full after:h-[2px]  after:left-0  after:bottom-0"}
+                                className={"relative inline-block opacity-80 rounded px-6 mx-2 hover:opacity-100 hover:bg-red-400  transition-all duration-500 ease-in-out"}
                                 href="#">Contact Me</a></li>
                         </ul>
 
